@@ -1,0 +1,136 @@
+body {
+    
+   
+    background-image:url(../Images/555.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+        }
+
+p {   
+   
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+    color: rgb(0, 0, 0);
+ 
+}
+
+a {
+    color: rgb(0, 0, 255); 
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.vlad {
+   
+    border-radius: 3px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    position:relative;
+    left: 370px ;
+    width:600px ;
+    height: 333px;
+}
+
+h1 {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    color: rgb(0, 0, 0);
+    
+
+
+}
+h2 {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+h3 {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+Table {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    border-collapse: collapse;
+    background-color: rgb(143, 152, 164);
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.353);
+    
+}
+
+
+.photo{
+
+    
+}
+
+.fone{
+
+    background: url(../assets/images/big.jpg) ;
+}
+
+
+.sad{
+
+    border-radius: 50%;
+}
+
+.imgq{
+    display: block ;
+    margin: auto;
+
+}
+
+.back{
+
+
+    height: 10vh;
+    background-color:rgb(90, 87, 87) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post{
+
+    font-family: 'Staatliches', cursive;
+   color: rgb(255, 255, 255);
+}
+
+
+
+th{
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(119, 114, 114);
+}
+
+td{
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(153, 151, 151);
+}
+tr {
+    transition: all . 3s;
+}
+tr:hover {
+        background-color: #ccc   
+}
+th:nth-child(odd) {
+    background-color: rgb(169, 163, 163);
+}
+tr:nth-child(even){
+    background-color: rgb(203, 195, 195);
+}
+td:not(:last-child){
+    border-right: 2px solid rgb(185, 180, 180)
+}
+.clr{
+    color:rgb(255, 255, 255);
+}
